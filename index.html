@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href ="https://fonts.googleapis.com/icon?family=Material+Icons" rel ="stylesheet">
     <link rel="stylesheet" href="stylemob.css" media ="screen">
     <link rel="stylesheet" href="styletb.css" media="screen and (min-width: 768px) and (max-width: 992px)">
     <link rel="stylesheet" href="styledsk.css" media ="screen and (min-width: 992px) and (max-width: 1200px)">
@@ -15,11 +16,21 @@
             </div>
             <div id ="form">
                 <h1>Login</h1>
-                <p>Seja bem vindo!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi sunt quod molestiae nostrum unde.</p>
             </div> 
             <form action="login.php" autocomplete ="ON" method="post">
-                <label for ="email">Email</label><input type ="email" name ="email" id ="iemail"><br>
-                <label for ="senha">Senha</label><input type ="password" name ="senha" id ="isenha"><br>
+                <i class ="material-icons">person</i>
+                <input type ="email" name ="email" id ="iemail" placeholder="Seu e-mail" autocomplete="email" required
+                minlength="11" maxlength="30">
+                <label for ="email">Login</label>
+                <i class ="material-icons">vpn_key</i>
+                <input type ="password" name ="senha" id ="isenha" placeholder="Sua senha"
+                autocomplete="current-password" required minlength="8" maxlength="20">
+                <label for ="senha">Senha</label>
+                <input type="submit" value="Entrar" id ="ent">
+                <a href="esqueci.html">
+                    Esqueci a senha
+                </a>
             </form>       
         </section>
     </main>

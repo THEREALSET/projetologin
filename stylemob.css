@@ -49,3 +49,12 @@ main {
     display: block;
     padding: 10px;
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#ent {
+    margin: 5px;
+}
