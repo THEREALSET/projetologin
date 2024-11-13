@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#login {
+    width: 990px;
+    margin: auto;
+}
+
+#img {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+}
