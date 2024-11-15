@@ -82,15 +82,33 @@ a {
 }
 
 form > div {
-    position: relative;
     background-color: #5f2c82;
     display: block;
     width: 94%;
-    height: 37px;
-    border-radius: 5px;
+    height: 40px;
+    border-radius: 8px;
     margin: 2px 7px;
+    border: solid #5f2c82 3px;
 }
 
 label {
     display: none;
+}
+
+i {
+    color: white;
+    font-size: 3em;
+    width: 40px;
+    padding: 5px;
+}
+
+form > div > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 44px);
+    border-radius: 8px;
+    border: 0px;
+    padding: 4px;
+    transform: translateY(-7px);
 }
