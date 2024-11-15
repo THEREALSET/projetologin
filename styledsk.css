@@ -12,6 +12,17 @@
     border-radius: 0px 15px 15px 0px ;
 }
 
+form > div {
+    float: right;
+    width: 48%;
+}
+
+#ent {
+    float: right;
+    width: 48%;
+    margin: 7px;
+}
+
 body {
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
 }

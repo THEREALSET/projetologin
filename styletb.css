@@ -1,17 +1,29 @@
 @charset "UTF-8";
 
+
 #login {
-    width: 90vw;
-    float: right;
-    width: 70%;
+    /*float: right;*/
+    width: 765px;
+    display: block;
 }
 
 #img {
     float: left;
-    height: 100%;
     width: 30%;
-    border-radius: 15px 0px 0px 15px;
+    height: 100%;
 }
+
+form > div {
+    float: right;
+    width: 68%;
+}
+
+#ent {
+    float: right;
+    width: 68%;
+    margin: 7px;
+}
+
 
 body {
     background-image: linear-gradient(to top, #49a09d, #5f2c82);

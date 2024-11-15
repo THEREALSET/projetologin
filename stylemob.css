@@ -18,6 +18,7 @@ body, html {
     height: 100vh;
     width: 100vw;
 }
+
 main {
     position: relative;
     height: 100vh;
@@ -26,7 +27,8 @@ main {
 
 #login {
     position: absolute;
-    top: 50%; left: 50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
@@ -45,8 +47,8 @@ main {
     border-radius: 15px 15px 0px 0px;
 }
 
-#form {
-    display: block;
+#txt {
+    position: relative;
     padding: 10px;
 }
 
@@ -56,5 +58,39 @@ h1 {
 }
 
 #ent {
-    margin: 5px;
+    position: relative;
+    display: block;
+    font-size: 1em;
+    width: 94%;
+    height: 40px;
+    background-color: #49a09d;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    color: white;
+    border-color: white;
+}
+
+#ent:hover {
+    background-color: #2d6462;
+}
+
+a {
+    display: inline;
+    width: 100%;
+    margin: 10px;
+}
+
+form > div {
+    position: relative;
+    background-color: #5f2c82;
+    display: block;
+    width: 94%;
+    height: 37px;
+    border-radius: 5px;
+    margin: 2px 7px;
+}
+
+label {
+    display: none;
 }
